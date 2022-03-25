@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: myapp
-     image: tjjoshua/devops:tagversion
+     image: tjjoshua/devops
      ports:
      - containerPort: 8080
 

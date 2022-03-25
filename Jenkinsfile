@@ -9,7 +9,7 @@ pipeline {
 		PROJECT_ID = 'sage-sunrise-344921'
                 CLUSTER_NAME = 'gke-cluster'
                 LOCATION = 'us-central1-c'
-                CREDENTIALS_ID = 'kubernetes'		
+                CREDENTIALS_ID = 'k8s'		
 	}
 	
     stages {

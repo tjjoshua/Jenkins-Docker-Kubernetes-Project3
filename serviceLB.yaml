@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: myapp-app-loadbalancer
-     image: ameintu/devops:tagversion
+     image: tjjoshua/devops:tagversion
      ports:
      - containerPort: 8080
 
@@ -27,7 +27,7 @@ kind: Service
 metadata:
   name: myapp-service-loadbalancer
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: myapp-app-loadbalancer
   ports:

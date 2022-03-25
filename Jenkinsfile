@@ -6,7 +6,7 @@ pipeline {
 	}
 	
 	environment {
-		PROJECT_ID = 'My First Project'
+		PROJECT_ID = 'MyFirstProject'
                 CLUSTER_NAME = 'gke-cluster'
                 LOCATION = 'us-central1-c'
                 CREDENTIALS_ID = 'kubernetes'		

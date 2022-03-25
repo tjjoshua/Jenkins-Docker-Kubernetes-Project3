@@ -6,7 +6,7 @@ pipeline {
 	}
 	
 	environment {
-		PROJECT_ID = 'MyFirstProject'
+		PROJECT_ID = 'sage-sunrise-344921'
                 CLUSTER_NAME = 'gke-cluster'
                 LOCATION = 'us-central1-c'
                 CREDENTIALS_ID = 'kubernetes'		
